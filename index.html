@@ -5,16 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio de projeto</title>
 </head>
-<body>
+<body style="width: 800px;margin:auto;">
     <h1>Primeiros passos sobre Internet e estruturas de páginas web</h1>
     <hr>
-    <h2>Índice</h2>
-    <ul type="square">
-        <li>Surgimento da Internet</li>
-        <li>Estruturas básicas de uma página web</li>
-        <li>O que são tags e para que servem</li>
-        <li>O que são os <mark>atributos</mark> das tags <strong>html</strong> e quais as suas funcionalidades</li>
-        <li>Referências</li>
+    <h2 id="indice" title="Título de indice">Índice</h2>
+    <ul type="circle">
+        <li><a href="#internet" style="text-decoration: none;">Surgimento da Internet</a></li>
+        <li><a href="#html" style="text-decoration: none;">O que é HTML?</a></li>
+        <li><a href="#tags" style="text-decoration: none;">O que são tags e HTML para que servem</a></li>
+        <li><a href="#atributos" style="text-decoration: none;">O que são os atributos das tags <strong>html</strong> e quais as suas funcionalidades</a></li>
+        <li><a href="#refs" style="text-decoration: none;">Referências<sup>*</sup></a></li>
     </ul>
+    <hr>
+    <h2 id="internet">Surgimento da Internet</h2>
+    <p style="text-align: justify;text-indent: 20px;">Criada em meados de 1960 e conhecida como <mark>ARPAnet(Advanced Research Projects Agency Network, em português:Rede da Agência para Projetos de Pesquisa Avançada)</mark>,
+        era usada para transmitir informações em centros de pesquisas e instalações militares, foi criada com a intenção de facilitar a comunicação entre as bases 
+        militares e consolidar um mecanismo de defesa contra soviéticos na época, só haviam 4 computadores que suportavam esse tipo de rede.Em 1970 foi estabelecido 
+        um email(correio eletrônico) como sendo o principal meio de comuncação para troca de mensagens entre vários usuários de maineira muito mais fácil.O acesso
+        militar a ARPAnet foi descontinuado por grandes númeoros de acessos e por motivos de segurança e em 1983 e migrado para MILnet,uma rede exclusiva para
+         militares, enquanto isso, ARPAnet seguia sendo usada por pesquisadores e também para fins comerciais e começou a se tornar popular pelo mundo.Com o avanço 
+         e aprimoramento da rede em 1990 a ARPAnet teve que ser descontinuada para dar espaço a mais um avanço tecnológico, o surgimento da <u>Wide World Web (WWW)</u>,
+        um sistema de distribuição de documentos e informações criado por Tim beners-lee. Após 2 anos a internet foi liberada para uso geral e milhares de sites 
+        começaram a surgir já naquela época e assim, se tornando a nossa internet de hoje, claro.. bem mais robusta e otimizada 😜.
+    </p><a href="#indice">voltar</a>
+    <blockquote>A internet que move o mundo!</blockquote>
+    <hr>
+    <h2 id="html">O que é HTML?</h2>
+    <p style="text-align: justify;text-indent: 20px;">HTML nada mais é do que uma linguagem de marcação de hipertexto (<i>Hypertext markup language</i>), é usado para definir a estrutura básica de uma 
+    página web interpretada pelo navegador,sites,blogs e até mesmo aplicações web bem complexas são estruturadas com essa base incial,suas tags tem significado 
+    semântico e tem grande importância para os motores de busca da web.</p><a href="#indice">voltar</a>
+    <h4>Estrutura base:</h4>
+   
+        <pre>
+        
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title>Document &lt;title&gt;
+            &lt;head&gt;
+                &lt;body&gt;
+            
+                &lt;body&gt;
+            &lt;html&gt;
+        </pre>
+ 
+
+    <h2 id="tags">O que são tags e HTML para que servem</h2>
+    <p style="text-align: justify;text-indent: 20px;">Tags html são consideradas como um tipo de marcação(etiqueta), são usadas para imformar o navegador qual o tipo de estrutura está sendo construída
+        (Parágrafos,títulos,Referências,Links entre outros),são de extrema importância para os motores de busca e para definir a forma como o navegador 
+        vai montar o documento antes de ser exibido.</p><a href="#indice">voltar</a>
+    <hr>
+    <h2 id="atributos">O que são os atributos das tags <strong>html</strong> e quais as suas funcionalidades</h2>
+    <p style="text-align: justify;text-indent: 20px;">São palavras reservadas dentro da tag de abertura, usadas para definir como um elemneto HTML vai se comportar,definem as características de cada elemento html,
+     comportamentos como permitir tradução, validação de formulários, menções á outros documentos, identificação e até mesmo formas de exibição.</p><a href="#indice">voltar</a>
+     <br>
+     <br>
+     <hr>
+     <h4 id="refs"><u>Referências:</u></h4>
+    <ul>
+        <li><a target="_blank" href="https://brasilescola.uol.com.br/informatica/internet.htm#:~:text=A%20internet%20surgiu%2C%20na%20d%C3%A9cada,institui%C3%A7%C3%B5es%20universit%C3%A1rias%20dos%20Estados%20Unidos.">História da internet</a></li>
+        <li><a target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjVgpvSzuWCAxUbCbkGHYtGDkUQFnoECBUQAQ&url=https%3A%2F%2Fdeveloper.mozilla.org%2Fpt-BR%2Fdocs%2FWeb%2FHTML%2F&usg=AOvVaw1wNo3SpmAhJCzSSemiBnS4&opi=89978449">HTML:O que é?</a></li>
+        <li><a target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjn-aOFz-WCAxViHrkGHVbgBkwQFnoECA0QAw&url=https%3A%2F%2Fhcode.com.br%2Fblog%2Fhtml5-guia-completo-01-o-que-sao-tags%23%3A~%3Atext%3DA%2520express%25C3%25A3o%2520%25E2%2580%259Ctag%25E2%2580%259D%2520significa%2520literalmente%2Co%2520mesmo%2520objetivo%253A%2520marcar%2520elementos.&usg=AOvVaw1IQALzpkb_QjEgqJftSinz&opi=89978449">Tags html</a></li>
+        <li><a target="_blank" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjzqu2lz-WCAxUzILkGHSPBDkEQFnoECAoQAw&url=https%3A%2F%2Fwww.alura.com.br%2Fartigos%2Fo-que-e-html-suas-tags-parte-5-atributos-elementos%23%3A~%3Atext%3DAtributos%2520HTML%2520s%25C3%25A3o%2520palavras%2520especiais%2Cum%2520campo%2520de%2520texto%252C%2520etc%25E2%2580%25A6&usg=AOvVaw0i1wTFQ534Fgke8M-MEITV&opi=89978449">Atributos HTML</a></li>
+    </ul>
+    <hr>
+    <footer style="width: 230px;margin: auto;"><h6>ByJulians | Primeiro desafio de projeto <strong>DIO</strong></h6></footer>
 </body>
 </html>
